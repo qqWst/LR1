@@ -20,17 +20,14 @@ int main(){
             break;
         }
         case 2:{ 
-            int sides[3];
-            cout << "Enter sides (3):";
-            for (int i = 0; i < 3; i++) cin >> sides[i];
-            int perimeter;
-            bool isIsosceles;
-            cout << fixed;
-            double area;
-            triangle(sides[0], sides[1], sides[2], perimeter, area, isIsosceles);
-            cout << "Perimeter = " << perimeter << endl <<
-            "Area = " << area << endl <<
-            "Is isosceles: " << (isIsosceles ? "Yes" : "No") << endl;
+            double side1, side2, side3;
+            cout << "Enter 1st side: ";
+            cin >> side1;
+	    cout << "Enter 2nd side: ";
+	    cin >> side2;
+	    cout << "Enter 3rd side: ";
+	    cin >> side3;
+            triangle(side1, side2, side3);
             break;
         }
         default: cout << "Incorrect!!!";
