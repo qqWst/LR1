@@ -1,7 +1,7 @@
 #include <iostream>
 #include "triangle.cpp"
 //#include "rectangle.cpp"
-//comment
+
 using namespace std;
 
 int main(){
