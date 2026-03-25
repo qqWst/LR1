@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-
+//comment
 void calRectangle(double length, double width) {
     if (length <= 0 || width <= 0) {
         cout << "Width and length should be positive!" << endl;
