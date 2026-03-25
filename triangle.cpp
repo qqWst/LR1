@@ -2,7 +2,7 @@
 #include <iostream>
 
 using namespace std;
-
+//comment
 int triangle(double side1, double side2, double side3){
     if (side1 <= 0 || side2 <= 0 || side3 <= 0) {
         cout << "Sides should be positive!!!";
